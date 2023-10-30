@@ -1,0 +1,74 @@
+body {
+    font-family: 'Itim','cursive ,Kanit','sans-serif','Noto Sans Thai','sans-serif';
+    background-color: #ff6666d5;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Itim','cursive ,Kanit','sans-serif','Noto Sans Thai','sans-serif';
+    color: #1b1b1bab;
+    text-shadow: rgb(4, 4, 32) 0px 1px;
+}
+
+section {
+    margin-top: 100px;
+}
+
+.center-heading {
+    text-align: center; /* จัดให้ข้อความอยู่ตรงกลางแนวนอน */
+    display: flex; /* ใช้ Flexbox เพื่อจัดให้เนื้อหาอยู่ตรงกลางแนวตั้ง */
+    flex-direction: column; /* จัดให้เนื้อหาเรียงตั้งบนลงล่าง */
+    justify-content: center; /* จัดให้เนื้อหาอยู่ตรงกลางแนวตั้ง */
+     /* ทำให้เนื้อหาเต็มหน้าจอ */
+}
+
+.center-heading h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.features-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    background-color: #ffffff; /* Background color */
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.features-icon img {
+    max-width: 200px; 
+    margin-bottom: 10px;
+    /* height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center; */
+}
+
+/* Style for the "More" button */
+.main-button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.main-button:hover {
+    background-color: #555;
+}
+.HeadName .h2{
+font-size: 100rem;
+
+
+}

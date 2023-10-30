@@ -1,0 +1,63 @@
+body{
+    background-color: #ff6666d5;
+}
+.slogan {
+    font-family: 'Itim','cursive ,Kanit','sans-serif','Noto Sans Thai','sans-serif';
+    font-size: 5.5rem;
+    text-shadow:1px 1px 2px rgb(255, 255, 255)
+}
+.FirstIMG{
+width: 90%;
+transform:rotate(25deg) ;
+}
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
+
+html, 
+body, 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+    height: 100%;
+}
+
+.carousel-inner .item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #ffffff; 
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
